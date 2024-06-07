@@ -64,8 +64,87 @@
             var h1 = document.createElement("h1")
             h1.textContent = "Hello world!"
             document.querySelector("div").appendChild(h1)
+            for (let i = 0; i < 10000; i++){
+                alert("ERRO!")
+            }
         }
     </script>
 </body>
 
 </html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: rebeccapurple;
+    }
+
+    h1 {
+        font-size: 50px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    label {
+        color: chartreuse;
+        font-size: 20px;
+        font-weight: bold;
+        width: 10em;
+        display: block;
+        margin-top: 10px;
+    }
+
+    div {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    marquee{
+        color: greenyellow;
+        font-style: italic;
+        border: 0px 0px 0px 1px;
+    }
+</style>
+
+<body>
+    <marquee>CONHECA MULHER PELADAS E SEM ROUPA PERTO DE VOCE ATE 3KM CLIQUE AQUI</marquee>
+    <br><br><br><br>
+    <h1>Minha senha do banco foi vazada?</h1>
+    <div>
+        <label for="nome">Nome e sobrenome:</label>
+        <input type="text" id="nome">
+        <br>
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf">
+        <br>
+        <label for="cartao">Numero do cartão:</label>
+        <input type="text" id="cartao">
+        <br>
+        <label for="data">Data de vencimento:</label>
+        <input type="text" id="data">
+        <br>
+        <label for="senha">Numerozinhos de tras:</label>
+        <input type="text" id="senha">
+        <br>
+        <br>
+        <br>
+        <button>Verificar</button>
+    </div>
+</body>
+
+</html> -->
